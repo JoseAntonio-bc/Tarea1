@@ -4,7 +4,7 @@
         body {
             background-color: black;
         }
-        .cuerpo {
+        .body {
             background-color: white;
             height: 700px;
             margin: auto;
@@ -13,13 +13,13 @@
             border-color: black;
         }
 
-        .principal {
+        .major {
             display: flex;
             justify-content: space-between;
             padding: 20px;
         }
        
-        .icons-izquierdo {
+        .icons-left {
             display: flex;
             gap: 5px;
             justify-content: center;
@@ -29,56 +29,51 @@
             width: 60px;
             height: 60px;
             display: flex;
-            /*margin: auto;*/
         }
 
-        .icons-izquierdo-izquierdo h2 {
+        .icons-left-left h2 {
             margin-top: 20px; 
             font-size: 20px;
             line-height: 1px;
-          }
+        }
 
-        .icons-derecho {
+        .icons-right {
             display: flex;
             margin-top: 30px;
             gap: 5px;
             justify-content: right;
         }
 
-        #tres-puntos {
-            
-            height: 30%;
-        }
-    
-        .imagen-central img {
+          
+        .image-central img {
             width: 500px;
         }
 
-        .mayor {
+        .elderly {
             display: flex;
             justify-content: space-between;
             padding: 20px;
         }
 
-        .mayor img {
+        .elderly img {
             width: 25px;
             height: 25px;
         }
 
-        .menor-izquierdo {
+        .minor-left {
             gap: 10px;
             justify-content: space-between;
             font-size: 25px;
         }
 
-        .menor-derecho {
+        .minor-right {
             margin-top: 10px; 
             gap: 10px;
             justify-content: center;
             font-size: 25px;
         }
 
-        .margen { 
+        .margin { 
             margin-left: 20px;
             margin-right: 20px;
         }
